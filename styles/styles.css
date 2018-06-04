@@ -1,0 +1,79 @@
+@font-face {
+    font-family: avengersFont;
+    src: url(fonts/avengers.otf);
+}
+
+@font-face {
+    font-family: marvelFont;
+    src: url(fonts/marvelFont.otf);
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.welcomeWrapper {
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+.welcomeHeader {
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    word-spacing: 8px;
+    font-size: 4vw;
+}
+
+.welcomeHeader, .gameButton {
+    font-family: avengersFont; 
+}
+
+.welcomeHowTo {
+    font-family: marvelFont;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 2%;
+    line-height: 35px;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-top: 7px;
+    width: auto;
+    height: auto;
+    border: solid black 3px;
+    border-radius: 10px;
+}
+
+.gameButton {
+    font-size: 2vw;
+    word-spacing: 8px;
+}
+
+a:link, a:visited {
+    color: #000;
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: blue;
+}
