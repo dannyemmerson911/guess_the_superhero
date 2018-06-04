@@ -1,0 +1,19 @@
+{
+  "name": "marvelApp",
+  "authors": [
+    "Danny Emmerson <danny.emmerson911@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".DS_Store",
+    "test",
+    "tests"
+  ]
+}
