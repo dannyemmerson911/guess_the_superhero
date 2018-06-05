@@ -7,7 +7,7 @@
             template: "<welcome-component></welcome-component>"
             })
             .when("/gameScreen", {
-            template: "<gameScreen-component></gameScreen-component>"
+            template: "<main-component></main-component>"
             })
             .otherwise({
             redirectTo: "/welcome"

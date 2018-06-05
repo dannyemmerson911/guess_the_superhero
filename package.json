@@ -1,0 +1,22 @@
+{
+  "name": "marvelapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyemmerson911/guess_the_superhero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyemmerson911/guess_the_superhero/issues"
+  },
+  "homepage": "https://github.com/dannyemmerson911/guess_the_superhero#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

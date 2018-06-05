@@ -63,7 +63,7 @@ body {
 }
 
 .gameButton {
-    font-size: 2vw;
+    font-size: 3vw;
     word-spacing: 8px;
 }
 
@@ -73,7 +73,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-a:hover {
+.buttonWrapper:hover {
     color: white;
     background-color: blue;
 }

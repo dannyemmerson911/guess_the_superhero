@@ -1,9 +1,15 @@
-<div class = "welcomeWrapper">
+<div ng-hide = "clicked" class = "welcomeWrapper">
     <h1 class = "welcomeHeader">How well do you know the Marvel Comics Universe?</h1>
     <p class = "welcomeHowTo">
-        Click through these doors to find out. You will be provided a randomly selected backstory and three multiple choice options. Select the hero that matches the backstory to earn MCP (Marvel Comic Points). 
+        Play on to find out. You will be provided a randomly selected backstory and three multiple choice options. Select the hero that matches the backstory to earn MCP (Marvel Comic Points).  
     </p>
-    <a ng-click = "$ctrl.playerName()" href = "#!/gameScreen"><div class = "buttonWrapper">
+    <div ng-model = "clicked" ng-click = "$ctrl.startGame(); clicked = true; nameForm = true" class = "buttonWrapper">
         <h2 class = "gameButton">START THE GAME</h2>
-    </div></a>
+    </div>
+</div>
+<div ng-show = "nameForm">
+    <form>
+        <input type = "text" placeholder = "What is your name?" ng-model = "name">
+        <a ng-click = "$ctrl.getName(name);" href = "#!/gameScreen"><button type = "submit" >Enter</button></a>
+    </form>
 </div>
